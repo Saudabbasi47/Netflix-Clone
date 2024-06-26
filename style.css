@@ -40,7 +40,7 @@ color: aliceblue;
 border:1px solid rgb(98, 98, 98) ;
 border-radius: 5px;
 }
-#gbuton{
+.gbuton{
     width: 200px;
     height: 56px;
     margin-left: 5px;
@@ -181,3 +181,17 @@ border-bottom: 10px solid gray;
     background-color: rgb(80, 80, 80);
     transition-duration:100ms ;
 }
+
+.button:hover{
+    background-color: red;
+}
+/* .b:hover{
+    background-color: blue;
+} */
+ .b{background-color: rgb(193, 17, 25);width: 79px;height: 35px;margin-top: 20px;border-radius: 7px; color: aliceblue;font-size: medium;font-weight: 700;text-align: center;border:transparent}
+ .button:active{
+    border:rgb(255, 255, 255) 2px solid;
+    transition-timing-function:step-start;
+
+    transition-duration:100ms ;
+ }
