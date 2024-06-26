@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: aliceblue;
+
+}
+
+.banner{
+    background-image: url(asset/bg.jpg);
+    background-size: cover;
+    height: 105.2vh;
+    /* position: absolute; */
+    border-bottom:10px solid gray ;
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+
+    /* align-items: center; */
+    align-content: center;
+
+}
+
+.email-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+   
+}
+#email{
+    /* margin-right: 30px; */
+    width: 370px;
+height: 53px;
+background-color: transparent;
+color: aliceblue;
+border:1px solid rgb(98, 98, 98) ;
+border-radius: 5px;
+}
+#gbuton{
+    width: 200px;
+    height: 56px;
+    margin-left: 5px;
+    background-color: rgb(193, 17, 25);
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 7px;
+    border: transparent;
+}
+#email::placeholder{
+color: aliceblue;
+font-size: 20px;
+opacity: .8;
+text-align: center;
+margin-left: 200px;
+}
+
+.first{
+    height: 500px;
+    background-color: rgb(0, 0, 0.1);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+border-bottom: 10px solid gray;
+}
+
+#f2{
+    background-image: url(asset/tv.png);
+    height: 300px;
+    background-size: cover;
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#f1 p {
+    font-size: larger;
+    font-weight: 600;
+}
+#f1-h{
+    font-size: 55px;
+    font-weight:bolder;
+    font-style: bold;
+}
+#f2 video{
+    width: 288px;
+    height: 189px;
+    top: 0
+;    left: 0;
+margin: 56px;
+margin-left: 55px;
+margin-top: 50px;
+}
+.second{
+    height: 500px;
+    background-color: rgb(0, 0, 0.11);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+border-bottom: 10px solid gray;
+}
+
+
+#s1{
+    background-image: url(asset/mobile-0819.jpg);
+    height: 450px;
+    width: 550px;
+    margin-left: -100px;
+    background-size: cover;
+}
+
+#s2{
+    font-size:22px;
+    font-weight:900;
+
+
+}
+.third{
+    height: 500px;
+    background-color: rgb(0, 0, 0.11);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+border-bottom: 10px solid gray;
+}
+
+#t2{
+    font-size:22px;
+    font-weight:900;
+}
+#t1{
+    background-image: url(asset/kp.png);
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+}
+
+
+
+
+
+
+.faq{
+    height: 700px;
+    display :flex ;
+    background-color: rgba(0, 0, 0, 0.997);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.fq{
+    height: 80px;
+    width:800px ;
+    background-color: rgb(45, 45, 45);
+    margin-top: 20px;
+    border: transparent;
+
+}
+.fq{
+    display: flex;
+    align-items: center;
+    margin-left:30px ;
+}
+.fq span{
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight:700;
+}
+.fq:hover{
+    background-color: rgb(80, 80, 80);
+    transition-duration:100ms ;
+}
